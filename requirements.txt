@@ -1,3 +1,6 @@
+pandas
+numpy
+seaborn
 anyio==4.13.0
 appnope==0.1.4
 argon2-cffi==25.1.0
@@ -111,3 +114,5 @@ webencodings==0.5.1
 websocket-client==1.9.0
 wheel==0.47.0
 widgetsnbextension==4.0.15
+
+-e .

@@ -20,8 +20,8 @@ setup(
     name= 'mlproject',
     version='3.13.6',
     author='Nauman',
-    author_email='legendofcs1@gmail.com'
+    author_email='legendofcs1@gmail.com',
     packages=find_packages(),
     #install_requires=['pandas','numpy','seaborn']
-    install_requires=get_requirments('requirements.txt')
+    install_requires=get_requirements('requirements.txt')
 )
