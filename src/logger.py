@@ -11,5 +11,8 @@ logging.basicConfig(
     filename=LOG_FIEL_PATH,format="[%(asctime)s]%(lineno)d %(name)s - %(levelname)s -%(message)s," \
     "level=logging.INFO, ")
 
+if __name__=="__name__":
+    logging.info("Logging has started")
+
 
  
